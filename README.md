@@ -19,3 +19,12 @@ This project is just a demo how to use Git
 // git checkout -b <branch> (branching)
 // git checkout <branch>
 // git merge
+A <-- B
+git checkout A
+git merge B
+master <-- feature/dog-class
+// git branch -D <branch> (delete a branch)
+
+// git reset --soft <to_comit>
+// git reset --mixed <to_comit>
+// git reset --hard <to_comit>
