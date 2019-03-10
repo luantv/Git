@@ -28,3 +28,5 @@ master <-- feature/dog-class
 // git reset --soft <to_comit>  (return status of files commit into staging area (file has green color))
 // git reset --mixed <to_comit> (return status of files commit into working directory (file has red color))
 // git reset --hard <to_comit>  (delete completed files commit (same discard))
+
+// git revert <comit>
