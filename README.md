@@ -32,3 +32,8 @@ master <-- feature/dog-class
 // git revert <comit>
 
 // .gitignore (The purpose is to ignore the files you don't want to commit)
+
+// git config --global credential.helper store
+// ^^^ not recommend (~/.git-credentials)
+// git config --global credential.helper "cache --timeout=18000"
+// google "gnome-keyring" "git ssh" "keychain"
