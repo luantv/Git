@@ -1,3 +1,3 @@
 function Horse() {
-	
+	this.stomach = [];
 }
