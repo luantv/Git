@@ -32,3 +32,21 @@ master <-- feature/dog-class
 // git revert <comit>
 
 // .gitignore (The purpose is to ignore the files you don't want to commit)
+
+// git config --global credential.helper store
+// ^^^ not recommend (~/.git-credentials)
+// git config --global credential.helper "cache --timeout=18000"
+// google "gnome-keyring" "git ssh" "keychain"
+
+// git clone
+// git pull
+
+// Pull request
+// 1. git checkout -b <feature-branch>
+// 2. git push origin <branch>
+// 3. create a pull request on Github
+// 4. review code
+		4.1 review code online (github)
+		4.2 fetch branch into local to test offline (optional)
+		4.3 approve to pull request
+// 5. merge to master
