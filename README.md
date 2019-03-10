@@ -30,3 +30,5 @@ master <-- feature/dog-class
 // git reset --hard <to_comit>  (delete completed files commit (same discard))
 
 // git revert <comit>
+
+// .gitignore (The purpose is to ignore the files you don't want to commit)
